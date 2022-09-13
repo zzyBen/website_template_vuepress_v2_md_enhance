@@ -1,5 +1,7 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from 'vuepress'
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
+
 
 export default defineUserConfig({
     base: '/website_template_vuepress_v2_md_enhance/',
@@ -26,4 +28,11 @@ export default defineUserConfig({
             ],
         },
     }),
+    plugins: [
+      mdEnhancePlugin({
+        // 启用幻灯片
+        presentation: { plugins: ['math']},
+        // tex: true,
+      }),
+    ],
 })

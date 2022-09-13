@@ -139,3 +139,51 @@
     }
     ```
 
+
+# 3. Use markdown enhance plugin
+1. Install via yarn
+    ```bash
+    yarn add -D vuepress-plugin-md-enhance@next
+    yarn add -D typescript
+    ```
+
+1. Use this plugin and presentation in `config.js`
+    Tutorial
+    ```js
+      // .vuepress/config.js
+      import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
+
+      export default {
+        plugins: [
+          mdEnhancePlugin({
+            // 你的选项
+          }),
+        ],
+      };
+    ```
+
+    My config
+
+    ```js
+      // .vuepress/config.js
+      import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
+
+      export default {
+        plugins: [
+          mdEnhancePlugin({
+            // 你的选项
+            presentation: true,
+          }),
+        ],
+      };
+    ```
+
+
+
+
+
+
+
+
+
+
