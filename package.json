@@ -1,0 +1,15 @@
+{
+  "name": "vue_v2_personal_website",
+  "version": "1.0.0",
+  "description": "Ziyu Zhou's personal website by VuePress v2",
+  "main": "index.js",
+  "author": "zzyBen <897224436@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.51"
+  },
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  }
+}
