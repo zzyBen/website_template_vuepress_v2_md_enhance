@@ -23,7 +23,11 @@ export default defineUserConfig({
             '/guide/': [
               {
                 text: 'Guide',
-                children: ['/guide/README.md', '/guide/getting-started.md'],
+                children: [
+                  '/guide/README.md',
+                  '/guide/getting-started.md',
+                  '/guide/tex.md',
+                ],
               },
             ],
         },
@@ -32,7 +36,7 @@ export default defineUserConfig({
       mdEnhancePlugin({
         // 启用幻灯片
         presentation: { plugins: ['math']},
-        // tex: true,
+        tex: true,
       }),
     ],
 })
