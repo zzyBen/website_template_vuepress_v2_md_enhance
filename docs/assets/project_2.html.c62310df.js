@@ -1,1 +1,0 @@
-import{_ as t,o,c,a as e,b as r}from"./app.b43bdde0.js";const a={},n=e("h1",{id:"project-2",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#project-2","aria-hidden":"true"},"#"),r(" Project 2")],-1),s=e("p",null,"Content",-1),_=[n,s];function d(i,l){return o(),c("div",null,_)}const p=t(a,[["render",d],["__file","project_2.html.vue"]]);export{p as default};

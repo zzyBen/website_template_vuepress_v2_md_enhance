@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7485e404","path":"/guide/tex.html","title":"Tex","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1663046784000,"contributors":[{"name":"zzyBen","email":"897224436@qq.com","commits":1}]},"filePathRelative":"guide/tex.md"}');export{e as data};
