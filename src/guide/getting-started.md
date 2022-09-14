@@ -150,7 +150,6 @@ $$
 
 ## 布局
 
-<!-- .element: class="r-fit-text" -->
 
 👆 `r-fit-text` class 会让文字在不超出幻灯片范围的情况下尽可能大。
 
@@ -329,7 +328,6 @@ $$
 
 ## 渐变
 
-<!-- .element: class="r-fit-text" -->
 
 Transition 可以通过配置中的 `transition` 选项全局设置，也可以通过在特定幻灯片添加 `data-transition` 属性局部设置.
 
@@ -351,7 +349,6 @@ Transition 可以通过配置中的 `transition` 选项全局设置，也可以�
 
 ## 渐变
 
-<!-- .element: class="r-fit-text" -->
 
 ### 过渡动画
 
@@ -371,7 +368,6 @@ Transition 可以通过配置中的 `transition` 选项全局设置，也可以�
 
 ## 功能
 
-<!-- .element: class="r-fit-text" -->
 
 ### 代码
 
@@ -392,7 +388,6 @@ c(3);
 
 ## 功能
 
-<!-- .element: class="r-fit-text" -->
 
 ### 预览模式
 
@@ -404,7 +399,6 @@ c(3);
 
 ## 功能
 
-<!-- .element: class="r-fit-text" -->
 
 ### 全屏模式
 
@@ -416,7 +410,6 @@ c(3);
 
 ## 功能
 
-<!-- .element: class="r-fit-text" -->
 
 ### 缩放
 
@@ -426,8 +419,11 @@ c(3);
 
 ---
 
-<!-- .element: class="r-fit-text" -->
 
 ## 结束
+
+<!-- .element: class="r-fit-text" -->
+
+<!-- .slide: data-transition="slide" data-auto-animate -->
 
 @slideend

@@ -35,7 +35,7 @@ export default defineUserConfig({
     plugins: [
       mdEnhancePlugin({
         // 启用幻灯片
-        presentation: { plugins: ['math']},
+        presentation: { plugins: ['math', 'highlight']},
         tex: true,
       }),
     ],
